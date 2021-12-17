@@ -1,0 +1,70 @@
+
+/*
+
+STYLE DU TEXTE
+
+la font: style text; 
+
+font-style = style du texte, exemple italic
+normal ou italic ou oblique
+
+font-variant = lettre capital
+normal ou 
+smallcaps (lettre capital avec majuscules et minuscules)
+
+font-weight = mise en gras
+(police valeurs entre min 100 max 900)
+normal ou
+bold ( gras )
+bolder
+lighter ( police a peu près normal )
+
+font-size ( taille )
+en pixel=px
+en %
+em ( élément parent 50%=0.5 ex em="0.5")
+
+xx-small
+x-small
+medium
+x-large
+xx-large
+
+line-height ( éspacement entre les ligne )
+
+valeurs idem a font-size
+
+font-family 
+police pré enregistré, ajouter quant même une alternative en cas de nom prise en charge
+exemple 
+Arial, 
+serif (empatement), 
+sans serif ( plus informatisé ), 
+monospace ( plice a chasse fixe même éspaces par charactère )
+cursive ( scolaire, enfantin )
+fantasy
+...
+
+A savoir:
+
+on peut écrire tout en font:
+
+font:italic small-caps bold 20px 20px Calibri;
+
+
+
+*/
+div
+{
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: bold; 
+	font-size:normal;
+	line-height:normal; ;
+	font-family:cursive;
+	color: red;
+
+}
+
+span
+{font-style: italic;color: blue;font-weight: normal;font-family: serif;}

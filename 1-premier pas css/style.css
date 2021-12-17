@@ -1,0 +1,50 @@
+/* un commentaire */
+
+/*p
+
+{
+
+/* 
+	<proprieté>:<valeur>;
+	<proprieté>:<valeur>;
+	<proprieté>:<valeur>;
+	<proprieté>:<valeur>;
+
+*/
+
+}*/
+
+
+body
+{
+	background-color:#DDD ;
+	margin:auto;
+	width:1000px
+}
+
+
+p
+{font-variant:small-caps; }
+
+
+
+/*#block*/
+
+
+div#block
+{background-color:grey; border: 1px solid #000; border-radius:8px;padding: 10px}
+
+span.text-red
+{color: red}
+
+span
+{color: blue;}
+
+span.text-green
+{color: green}
+
+/* le style mis sur la page html est prioritaire par rapport au style de la page style.css
+!!!Le fichier css normalize reinitialise les balise pour uniformiser les differents navigateur*/
+
+
+
